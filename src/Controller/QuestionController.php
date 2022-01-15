@@ -10,14 +10,16 @@ class QuestionController extends AbstractController {
 
     /**
      * 
-     * @Route("/")
+     * @Route("/", name="app_homepage")
      */
     public function homepage() {
-        return new Response('Hello Symfony 5');
+        
+        return $this->render('question/homepage.html.twig');
+        //return new Response('Hello Symfony 5');
     }
 
     /**
-     * @Route("/questions/{slug}")
+     * @Route("/questions/{slug}", name="app_question_show")
      */
     public function show($slug) {
 

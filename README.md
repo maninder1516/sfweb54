@@ -2,7 +2,7 @@
 Symfony 5 Application
 ========================
 
-The "Symfony 5 Application" is a reference application created to start with Symfony 5 applications.
+This is a reference application created to start with Symfony 5 applications.
 
 Requirements
 ------------

@@ -13,7 +13,7 @@ import './bootstrap';
 
 // Loads the jquery package from node_modules
 import $ from 'jquery';
-global.$ = $;
+// global.$ = $;
 
 //import greet from './greet';
 
